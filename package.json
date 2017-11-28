@@ -1,0 +1,36 @@
+{
+  "name": "nodeapiboilerplate",
+  "version": "1.0.0",
+  "description": "initial api for any project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergormo/Generic-nodejs-api.git"
+  },
+  "keywords": [
+    "node",
+    "basic",
+    "start",
+    "api"
+  ],
+  "author": "themadarch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergormo/Generic-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/sergormo/Generic-nodejs-api#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.3",
+    "node-bittrex-api": "^0.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
